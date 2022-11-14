@@ -1,0 +1,9 @@
+S:\Self_Learning\Projects\Facilitating-Farmers\server\Business-Logic-Layer\bin\Debug\Business-Logic-Layer.dll
+S:\Self_Learning\Projects\Facilitating-Farmers\server\Business-Logic-Layer\bin\Debug\Business-Logic-Layer.pdb
+S:\Self_Learning\Projects\Facilitating-Farmers\server\Business-Logic-Layer\bin\Debug\Data-Link-Layer.dll
+S:\Self_Learning\Projects\Facilitating-Farmers\server\Business-Logic-Layer\bin\Debug\Data-Link-Layer.pdb
+S:\Self_Learning\Projects\Facilitating-Farmers\server\Business-Logic-Layer\obj\Debug\Business-Logic-Layer.csproj.AssemblyReference.cache
+S:\Self_Learning\Projects\Facilitating-Farmers\server\Business-Logic-Layer\obj\Debug\Business-Logic-Layer.csproj.CoreCompileInputs.cache
+S:\Self_Learning\Projects\Facilitating-Farmers\server\Business-Logic-Layer\obj\Debug\Business-Logic-Layer.csproj.CopyComplete
+S:\Self_Learning\Projects\Facilitating-Farmers\server\Business-Logic-Layer\obj\Debug\Business-Logic-Layer.dll
+S:\Self_Learning\Projects\Facilitating-Farmers\server\Business-Logic-Layer\obj\Debug\Business-Logic-Layer.pdb
