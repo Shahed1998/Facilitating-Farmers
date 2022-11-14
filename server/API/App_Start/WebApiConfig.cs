@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Formatting;
+using System.Net.Http.Headers;
 using System.Web.Http;
 
 namespace API
@@ -19,6 +21,10 @@ namespace API
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            // Removing XML formatter, because our app will only support json
+            config.Formatters.Remove(config.Formatters.XmlFormatter);
+
         }
     }
 }
