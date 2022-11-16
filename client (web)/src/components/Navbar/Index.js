@@ -1,10 +1,10 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <nav className='navbar navbar-expand-lg bg-light'>
       <div className='container-fluid'>
-        <NavLink to='home' className='navbar-brand'>
+        <NavLink to='/' className='navbar-brand'>
           <img
             src='harvest-farming.png'
             alt='logo'
@@ -26,28 +26,30 @@ const Navbar = () => {
         <div className='collapse navbar-collapse' id='navbarNav'>
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item p-2'>
-              <a className='nav-link' aria-current='page' href='#'>
+              <NavLink to={'/courses'} className='nav-link'>
                 কোর্স
-              </a>
+              </NavLink>
             </li>
             <li className='nav-item p-2'>
-              <a className='nav-link' href='#'>
+              <NavLink to={'/specialists'} className='nav-link'>
                 বিশেষজ্ঞ
-              </a>
+              </NavLink>
             </li>
             <li className='nav-item p-2'>
-              <a className='nav-link' href='#'>
+              <NavLink to={'/question-answers'} className='nav-link'>
                 প্রশ্নোত্তর
-              </a>
+              </NavLink>
             </li>
             <li className='nav-item p-2'>
-              <a className='nav-link'>ক্রয়/বিক্রয়</a>
+              <NavLink to={'/buy-sell'} className='nav-link'>
+                ক্রয়/বিক্রয়
+              </NavLink>
             </li>
             <li className='nav-item p-2'>
-              <a className=' btn btn-secondary'>English</a>
+              <Link className=' btn btn-secondary'>English</Link>
             </li>
             <li className='nav-item p-2'>
-              <a className=' btn btn-secondary'>সাইন ইন করুন</a>
+              <Link className=' btn btn-secondary'>সাইন ইন করুন</Link>
             </li>
           </ul>
         </div>

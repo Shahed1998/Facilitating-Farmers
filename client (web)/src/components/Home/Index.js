@@ -1,5 +1,13 @@
+import HeroSection from './HeroSection';
+import Services from './Services';
+
 const Home = () => {
-  return 'hello from the other world';
+  return (
+    <>
+      <HeroSection />
+      <Services />
+    </>
+  );
 };
 
 export default Home;
