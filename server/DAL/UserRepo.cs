@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DLL.EF;
+using DAL.EF;
 
-namespace DLL
+namespace DAL
 {
     public class UserRepo
     {

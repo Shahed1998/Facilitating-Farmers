@@ -1,0 +1,12 @@
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\DLL.dll.config
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\DLL.dll
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\DLL.pdb
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\EntityFramework.dll
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\EntityFramework.SqlServer.dll
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\EntityFramework.xml
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\EntityFramework.SqlServer.xml
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CopyComplete
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DLL.dll
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DLL.pdb

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DLL.EF
+namespace DAL.EF
 {
     using System;
     using System.Data.Entity;

@@ -47,9 +47,9 @@
     <Compile Include="UserServices.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DLL\DLL.csproj">
+    <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{abf1c6d1-7131-4732-88ae-27b92223d7c3}</Project>
-      <Name>DLL</Name>
+      <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
