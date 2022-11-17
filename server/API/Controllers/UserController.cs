@@ -12,13 +12,22 @@ namespace API.Controllers
 {
     public class UserController : ApiController
     {
-        // GET: User
+        // GET: All Users
         [HttpGet]
         [Route("api/users/all")]
         public HttpResponseMessage GetAllUsers()
         {
             var users = UserServices.Get();
-            return Request.CreateResponse(HttpStatusCode.OK, users);
+
+            if (users == null)
+            {
+                return Request.CreateResponse(HttpStatusCode.NotFound,
+                    new { status = "Failed", message = "User not found" });
+            }
+
+            return Request.CreateResponse(HttpStatusCode.OK, new { status = "Success", users });
         }
+
     }
+
 }
