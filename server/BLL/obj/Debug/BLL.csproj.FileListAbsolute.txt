@@ -1,9 +1,12 @@
 S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\bin\Debug\BLL.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\bin\Debug\BLL.pdb
+S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\bin\Debug\DLL.dll
+S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\bin\Debug\EntityFramework.dll
+S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\bin\Debug\DLL.pdb
+S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\bin\Debug\DLL.dll.config
+S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\bin\Debug\EntityFramework.xml
 S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\obj\Debug\BLL.csproj.CopyComplete
 S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\obj\Debug\BLL.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\obj\Debug\BLL.pdb
-S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\bin\Debug\DLL.dll
-S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\bin\Debug\DLL.pdb
-S:\Self_Learning\Projects\Facilitating-Farmers\server\BLL\obj\Debug\BLL.csproj.CopyComplete
