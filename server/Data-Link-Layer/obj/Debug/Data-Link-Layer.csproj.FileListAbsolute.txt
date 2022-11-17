@@ -1,6 +1,0 @@
-S:\Self_Learning\Projects\Facilitating-Farmers\server\Data-Link-Layer\bin\Debug\Data-Link-Layer.dll
-S:\Self_Learning\Projects\Facilitating-Farmers\server\Data-Link-Layer\bin\Debug\Data-Link-Layer.pdb
-S:\Self_Learning\Projects\Facilitating-Farmers\server\Data-Link-Layer\obj\Debug\Data-Link-Layer.csproj.AssemblyReference.cache
-S:\Self_Learning\Projects\Facilitating-Farmers\server\Data-Link-Layer\obj\Debug\Data-Link-Layer.csproj.CoreCompileInputs.cache
-S:\Self_Learning\Projects\Facilitating-Farmers\server\Data-Link-Layer\obj\Debug\Data-Link-Layer.dll
-S:\Self_Learning\Projects\Facilitating-Farmers\server\Data-Link-Layer\obj\Debug\Data-Link-Layer.pdb

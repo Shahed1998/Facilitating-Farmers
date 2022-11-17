@@ -247,9 +247,9 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Business-Logic-Layer\Business-Logic-Layer.csproj">
-      <Project>{7d9ae8c6-036d-4e1b-bbb7-6c11461d50b7}</Project>
-      <Name>Business-Logic-Layer</Name>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{72df5e0e-572d-45dc-8266-4aa390fd2e66}</Project>
+      <Name>BLL</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

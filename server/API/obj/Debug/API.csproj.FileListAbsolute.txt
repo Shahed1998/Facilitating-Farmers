@@ -51,7 +51,6 @@ S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\roslyn\vbc.rsp
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\roslyn\VBCSCompiler.exe
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\roslyn\VBCSCompiler.exe.config
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\Antlr3.Runtime.dll
-S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\Business-Logic-Layer.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\Microsoft.Web.Infrastructure.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\Newtonsoft.Json.dll
@@ -66,7 +65,6 @@ S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\System.Web.WebPage
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\System.Web.WebPages.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\System.Web.WebPages.Razor.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\WebGrease.dll
-S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\Business-Logic-Layer.pdb
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\Newtonsoft.Json.xml
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\System.Net.Http.Formatting.xml
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\System.Web.Helpers.xml
@@ -85,3 +83,5 @@ S:\Self_Learning\Projects\Facilitating-Farmers\server\API\obj\Debug\API.csproj.C
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\obj\Debug\API.csproj.CopyComplete
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\obj\Debug\API.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\obj\Debug\API.pdb
+S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\BLL.dll
+S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\BLL.pdb
