@@ -13,10 +13,10 @@ namespace DAL.EF
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Facilitating_FarmersEntities1 : DbContext
+    public partial class Facilitating_FarmersEntities : DbContext
     {
-        public Facilitating_FarmersEntities1()
-            : base("name=Facilitating_FarmersEntities1")
+        public Facilitating_FarmersEntities()
+            : base("name=Facilitating_FarmersEntities")
         {
         }
     

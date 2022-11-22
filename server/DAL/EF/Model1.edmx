@@ -99,7 +99,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="Facilitating_FarmersEntities1" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="Facilitating_FarmersEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Roles" EntityType="Self.Role" />
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
           <EntitySet Name="Users" EntityType="Self.User" />
@@ -113,7 +113,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Facilitating_FarmersModelStoreContainer" CdmEntityContainer="Facilitating_FarmersEntities1">
+        <EntityContainerMapping StorageEntityContainer="Facilitating_FarmersModelStoreContainer" CdmEntityContainer="Facilitating_FarmersEntities">
           <EntitySetMapping Name="Roles">
             <EntityTypeMapping TypeName="Facilitating_FarmersModel.Role">
               <MappingFragment StoreEntitySet="Role">
