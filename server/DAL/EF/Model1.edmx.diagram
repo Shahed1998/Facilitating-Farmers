@@ -4,10 +4,12 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="ef3ecaeaf5b646b4960dd267465fa706" Name="Diagram1">
-        <EntityTypeShape EntityType="Facilitating_FarmersModel.Role" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+      <Diagram DiagramId="8ab2f6613eba4b3dae738820c3364e9d" Name="Diagram1">
+        <EntityTypeShape EntityType="Facilitating_FarmersModel.Question" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Facilitating_FarmersModel.Role" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
         <EntityTypeShape EntityType="Facilitating_FarmersModel.sysdiagram" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Facilitating_FarmersModel.User" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Facilitating_FarmersModel.User" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="Facilitating_FarmersModel.FK_Questions_Users" ManuallyRouted="false" />
         <AssociationConnector Association="Facilitating_FarmersModel.FK_Users_Role" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
