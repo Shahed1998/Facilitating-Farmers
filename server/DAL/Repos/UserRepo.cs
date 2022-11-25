@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class UserRepo : IRepo<User, int, User>
+    internal class UserRepo : IRepo<User, int, User>, IAuth
     {
         public User Add(User item)
         {
@@ -33,6 +33,11 @@ namespace DAL.Repos
         public User Update(User item)
         {
             throw new NotImplementedException();
+        }
+
+        public User Authenticate(string username, string password)
+        {
+            return null;
         }
     }
 }

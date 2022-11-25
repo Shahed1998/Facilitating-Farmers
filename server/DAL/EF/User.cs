@@ -17,6 +17,7 @@ namespace DAL.EF
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public User()
         {
+            this.Answers = new HashSet<Answer>();
             this.Questions = new HashSet<Question>();
         }
     
@@ -24,8 +25,11 @@ namespace DAL.EF
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+        public int Rank { get; set; }
         public int Role { get; set; }
     
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Answer> Answers { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Question> Questions { get; set; }
         public virtual Role Role1 { get; set; }

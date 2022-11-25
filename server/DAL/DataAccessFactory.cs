@@ -17,5 +17,10 @@ namespace DAL
             return new UserRepo();
         }
 
+        public static IAuth AuthenticateUser()
+        {
+            return new UserRepo();
+        }
+
     }
 }
