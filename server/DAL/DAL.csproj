@@ -53,19 +53,16 @@
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\FacilitatingFarmerContext.cs" />
+    <Compile Include="EF\Models\Admin.cs" />
+    <Compile Include="EF\Models\CourseVideo.cs" />
     <Compile Include="EF\Models\Course.cs" />
+    <Compile Include="EF\Models\CourseCategory.cs" />
+    <Compile Include="EF\Models\CourseDifficulty.cs" />
     <Compile Include="EF\Models\CourseEnrollment.cs" />
-    <Compile Include="EF\Models\Role.cs" />
-    <Compile Include="EF\Models\User.cs" />
-    <Compile Include="Migrations\202212021716582_AddedTablesCourseCourseEnrollmentRoleUser.cs" />
-    <Compile Include="Migrations\202212021716582_AddedTablesCourseCourseEnrollmentRoleUser.designer.cs">
-      <DependentUpon>202212021716582_AddedTablesCourseCourseEnrollmentRoleUser.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202212021719365_UpdatedCourseEnrollment.cs" />
-    <Compile Include="Migrations\202212021719365_UpdatedCourseEnrollment.designer.cs">
-      <DependentUpon>202212021719365_UpdatedCourseEnrollment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="EF\Models\Rating.cs" />
+    <Compile Include="EF\Models\Customer.cs" />
+    <Compile Include="EF\Models\Specialist.cs" />
+    <Compile Include="EF\Models\UserCredentials.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -75,14 +72,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202212021716582_AddedTablesCourseCourseEnrollmentRoleUser.resx">
-      <DependentUpon>202212021716582_AddedTablesCourseCourseEnrollmentRoleUser.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202212021719365_UpdatedCourseEnrollment.resx">
-      <DependentUpon>202212021719365_UpdatedCourseEnrollment.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

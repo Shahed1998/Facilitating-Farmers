@@ -7,20 +7,24 @@ using System.Threading.Tasks;
 
 namespace DAL.EF.Models
 {
-    public class Role
+    public class Rating
     {
         [Key]
         public int Id { get; set; }
 
         [Required]
+        public int Star { get; set; }
+
+        [Required]
         [StringLength(50)]
-        public string Type { get; set; }
+        public string Meaning { get; set; }
 
-        public virtual List<User> Users { get; set; }
 
-        public Role()
+        public List<CourseEnrollment> courseEnrollments { get; set; }
+
+        public Rating()
         {
-            Users = new List<User>();   
+            courseEnrollments = new List<CourseEnrollment>();
         }
     }
 }

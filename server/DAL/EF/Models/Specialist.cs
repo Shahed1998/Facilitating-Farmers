@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.EF.Models
 {
-    public class User
+    public class Specialist
     {
         [Key]
         public int Id { get; set; }
@@ -18,15 +18,15 @@ namespace DAL.EF.Models
         public string Name { get; set; }
 
         [Required]
-        [StringLength(100)]
-        public string Email { get; set; }
+        [ForeignKey("UserCredentials")]
+        public int CredentialId { get; set; }
+        public virtual UserCredentials UserCredentials { get; set; }
 
-        [Required]
-        [MaxLength(128), MinLength(8)]
-        public string Password { get; set; }
+        public List<Course> courses { get; set; }
 
-        [ForeignKey("Role")]
-        public int RoleId { get; set; }
-        public virtual Role Role { get; set; }
+        public Specialist()
+        {
+            courses = new List<Course>();
+        }
     }
 }
