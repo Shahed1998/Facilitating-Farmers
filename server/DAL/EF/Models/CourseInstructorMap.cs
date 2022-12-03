@@ -8,24 +8,17 @@ using System.Threading.Tasks;
 
 namespace DAL.EF.Models
 {
-    public class CourseVideo
+    public class CourseInstructorMap
     {
         [Key]
         public int Id { get; set; }
-
-        [Required]
-        public string Video { get; set; }
-
-        [Required]
-        public int Serial { get; set; }
-
 
         [Required, ForeignKey("Course")]
         public int CourseId { get; set; }
         public virtual Course Course { get; set; }
 
-        [Required, ForeignKey("CouseVideoLock")]
-        public int IsLockedId {get; set; }
-        public virtual CouseVideoLock CouseVideoLock { get; set; }
+        [Required, ForeignKey("Specialist")]
+        public int InstructorId { get; set; }
+        public virtual Specialist Specialist { get; set; }
     }
 }

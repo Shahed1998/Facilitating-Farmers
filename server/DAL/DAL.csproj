@@ -53,16 +53,23 @@
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\FacilitatingFarmerContext.cs" />
-    <Compile Include="EF\Models\Admin.cs" />
-    <Compile Include="EF\Models\CourseVideo.cs" />
+    <Compile Include="EF\Models\Answer.cs" />
+    <Compile Include="EF\Models\Category.cs" />
     <Compile Include="EF\Models\Course.cs" />
-    <Compile Include="EF\Models\CourseCategory.cs" />
-    <Compile Include="EF\Models\CourseDifficulty.cs" />
     <Compile Include="EF\Models\CourseEnrollment.cs" />
-    <Compile Include="EF\Models\Rating.cs" />
+    <Compile Include="EF\Models\CourseInstructorMap.cs" />
+    <Compile Include="EF\Models\CourseVideo.cs" />
+    <Compile Include="EF\Models\CouseVideoLock.cs" />
     <Compile Include="EF\Models\Customer.cs" />
+    <Compile Include="EF\Models\Difficulty.cs" />
+    <Compile Include="EF\Models\Question.cs" />
+    <Compile Include="EF\Models\Rating.cs" />
     <Compile Include="EF\Models\Specialist.cs" />
-    <Compile Include="EF\Models\UserCredentials.cs" />
+    <Compile Include="Migrations\202212032036322_AddedDatabase.cs" />
+    <Compile Include="Migrations\202212032036322_AddedDatabase.designer.cs">
+      <DependentUpon>202212032036322_AddedDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -72,6 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202212032036322_AddedDatabase.resx">
+      <DependentUpon>202212032036322_AddedDatabase.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

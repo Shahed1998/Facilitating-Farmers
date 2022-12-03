@@ -18,15 +18,25 @@ namespace DAL.EF.Models
         public string Name { get; set; }
 
         [Required]
-        [ForeignKey("UserCredentials")]
-        public int CredentialId { get; set; }
-        public virtual UserCredentials UserCredentials { get; set; }
+        [StringLength(50)]
+        public string Username { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        public string Email { get; set; }
+
+        [Required]
+        [StringLength(100)]
+        public string Password { get; set; }
 
         public List<CourseEnrollment> courseEnrollments { get; set; }
+        public List<Question> questions { get; set; }
 
         public Customer()
-        { 
+        {
             courseEnrollments = new List<CourseEnrollment>();
+            questions = new List<Question>();
+            
         }
 
     }

@@ -17,41 +17,32 @@ namespace DAL.EF.Models
         [StringLength(50)]
         public string Title { get; set; }
 
-        [Required]
-        [StringLength(50)]
-        public string Subtitle{ get; set; }
+        [Required,StringLength(100)]
+        public string Subtitle { get; set; }
 
-        [Required]
-        [StringLength (256)]
+        [Required,StringLength(256)]
         public string Description { get; set; }
 
         [Required]
-        public double Price { get; set; }
-
-        [Required]
         public DateTime LastUpdatedAt { get; set; }
-        
-        [Required]
-        [ForeignKey("Difficulty")]
+
+        [Required, ForeignKey("Difficulty")]
         public int DifficultyId { get; set; }
-        public virtual CourseDifficulty Difficulty { get; set; }
+        public virtual Difficulty Difficulty { get; set; }
 
-        [Required]
-        [ForeignKey("User")]
-        public int InstructorId { get; set; }
-        public virtual Specialist User { get; set; }
-
-        [Required]
-        [ForeignKey("CourseCategory")]
+        [Required, ForeignKey("Category")]
         public int CategoryId { get; set; }
-        public virtual CourseCategory CourseCategory { get; set; }
+        public virtual Category Category { get; set; }
 
-        public List<CourseEnrollment> courseEnrollments { get; set; }
+        public List<CourseInstructorMap> CourseInstructorMaps { get; set; }
+        public List<CourseVideo> CourseVideos { get; set; }
+        public List<CourseEnrollment> CourseEnrollments { get; set; }
 
         public Course()
         {
-            courseEnrollments = new List<CourseEnrollment>();
+            CourseInstructorMaps = new List<CourseInstructorMap>();
+            CourseVideos = new List<CourseVideo>();
+            CourseEnrollments = new List<CourseEnrollment>();
         }
-
     }
 }

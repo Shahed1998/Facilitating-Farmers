@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,15 +18,24 @@ namespace DAL.EF.Models
         public string Name { get; set; }
 
         [Required]
-        [ForeignKey("UserCredentials")]
-        public int CredentialId { get; set; }
-        public virtual UserCredentials UserCredentials { get; set; }
+        [StringLength(50)]
+        public string Username { get; set; }
 
-        public List<Course> courses { get; set; }
+        [Required]
+        [StringLength(50)]
+        public string Email { get; set; }
+
+        [Required]
+        [StringLength(100)]
+        public string Password { get; set; }
+
+        public List<CourseInstructorMap> CourseInstructorMaps { get; set; }
+        public List<Answer> Answers { get; set; }
 
         public Specialist()
         {
-            courses = new List<Course>();
+            CourseInstructorMaps = new List<CourseInstructorMap>();
+            Answers = new List<Answer>();
         }
     }
 }

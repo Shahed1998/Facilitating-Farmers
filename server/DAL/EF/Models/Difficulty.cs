@@ -7,20 +7,19 @@ using System.Threading.Tasks;
 
 namespace DAL.EF.Models
 {
-    public class CourseDifficulty
+    public class Difficulty
     {
         [Key]
         public int Id { get; set; }
 
-        [Required]
-        [StringLength(50)]
-        public string Name { get; set; }
+        [Required, StringLength(50)]
+        public string Type { get; set; }
 
-        public List<Course> courses { get; set; }
+        public List<Course> Courses { get; set; }
 
-        public CourseDifficulty()
+        public Difficulty()
         {
-            courses = new List<Course>();
+            Courses = new List<Course>();
         }
     }
 }

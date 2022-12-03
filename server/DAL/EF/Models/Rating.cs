@@ -19,7 +19,6 @@ namespace DAL.EF.Models
         [StringLength(50)]
         public string Meaning { get; set; }
 
-
         public List<CourseEnrollment> courseEnrollments { get; set; }
 
         public Rating()
