@@ -1,3 +1,5 @@
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\DAL.dll.config
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\DAL.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\DAL.pdb
@@ -5,13 +7,12 @@ S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\EntityFramew
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\EntityFramework.SqlServer.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\EntityFramework.xml
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\EntityFramework.SqlServer.xml
-S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
-S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CopyComplete
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.pdb
-S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.AddedTablesCourseCourseEnrollmentRoleUser.resources
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.AddedDatabase.resources
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+<<<<<<< HEAD
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.UpdatedCourseEnrollment.resources
 E:\project\Facilitating-Farmers\server\DAL\bin\Debug\DAL.dll.config
 E:\project\Facilitating-Farmers\server\DAL\bin\Debug\DAL.dll
@@ -28,3 +29,5 @@ E:\project\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CoreCompileInput
 E:\project\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CopyComplete
 E:\project\Facilitating-Farmers\server\DAL\obj\Debug\DAL.dll
 E:\project\Facilitating-Farmers\server\DAL\obj\Debug\DAL.pdb
+=======
+>>>>>>> master

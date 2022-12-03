@@ -7,20 +7,19 @@ using System.Threading.Tasks;
 
 namespace DAL.EF.Models
 {
-    public class Role
+    public class CouseVideoLock
     {
         [Key]
         public int Id { get; set; }
 
         [Required]
-        [StringLength(50)]
-        public string Type { get; set; }
+        public bool IsLocked { get; set; }
 
-        public virtual List<User> Users { get; set; }
+        public List<CourseVideo> courseVideos { get; set; }
 
-        public Role()
+        public CouseVideoLock()
         {
-            Users = new List<User>();   
+            courseVideos = new List<CourseVideo>(); 
         }
     }
 }

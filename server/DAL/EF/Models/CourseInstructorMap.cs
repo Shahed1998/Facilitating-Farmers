@@ -8,22 +8,17 @@ using System.Threading.Tasks;
 
 namespace DAL.EF.Models
 {
-    public class CourseEnrollment
+    public class CourseInstructorMap
     {
         [Key]
         public int Id { get; set; }
-
-        [Required, ForeignKey("Customer")]
-        public int StudentId  { get; set; }
-        public virtual Customer Customer { get; set; }
 
         [Required, ForeignKey("Course")]
         public int CourseId { get; set; }
         public virtual Course Course { get; set; }
 
-        [Required, ForeignKey("Rating")]
-        public int RatingId { get; set; }
-        public virtual Rating Rating { get; set; }
-
+        [Required, ForeignKey("Specialist")]
+        public int InstructorId { get; set; }
+        public virtual Specialist Specialist { get; set; }
     }
 }
