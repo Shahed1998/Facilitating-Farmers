@@ -7,13 +7,13 @@ namespace DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class AddedDatabase : IMigrationMetadata
+    public sealed partial class SeedCourseVideoLock : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddedDatabase));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(SeedCourseVideoLock));
         
         string IMigrationMetadata.Id
         {
-            get { return "202212032036322_AddedDatabase"; }
+            get { return "202212082056050_SeedCourseVideoLock"; }
         }
         
         string IMigrationMetadata.Source

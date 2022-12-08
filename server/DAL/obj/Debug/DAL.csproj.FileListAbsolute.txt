@@ -10,5 +10,8 @@ S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\EntityFramew
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CopyComplete
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.pdb
-S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.AddedDatabase.resources
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.AddedDB.resources
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.SeedCourseVideoLock.resources
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.SeedCategories.resources
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.SeedCourses.resources

@@ -65,24 +65,44 @@
     <Compile Include="EF\Models\Question.cs" />
     <Compile Include="EF\Models\Rating.cs" />
     <Compile Include="EF\Models\Specialist.cs" />
-    <Compile Include="Migrations\202212032036322_AddedDatabase.cs" />
-    <Compile Include="Migrations\202212032036322_AddedDatabase.designer.cs">
-      <DependentUpon>202212032036322_AddedDatabase.cs</DependentUpon>
+    <Compile Include="Interfaces\IRepo.cs" />
+    <Compile Include="Migrations\202212082053534_AddedDB.cs" />
+    <Compile Include="Migrations\202212082053534_AddedDB.designer.cs">
+      <DependentUpon>202212082053534_AddedDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212082056050_SeedCourseVideoLock.cs" />
+    <Compile Include="Migrations\202212082056050_SeedCourseVideoLock.designer.cs">
+      <DependentUpon>202212082056050_SeedCourseVideoLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212082057425_SeedCategories.cs" />
+    <Compile Include="Migrations\202212082057425_SeedCategories.designer.cs">
+      <DependentUpon>202212082057425_SeedCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202212082059474_SeedCourses.cs" />
+    <Compile Include="Migrations\202212082059474_SeedCourses.designer.cs">
+      <DependentUpon>202212082059474_SeedCourses.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Repos\" />
+    <Compile Include="Repos\CourseRepo.cs" />
+    <Compile Include="Repos\Repo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202212032036322_AddedDatabase.resx">
-      <DependentUpon>202212032036322_AddedDatabase.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202212082053534_AddedDB.resx">
+      <DependentUpon>202212082053534_AddedDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212082056050_SeedCourseVideoLock.resx">
+      <DependentUpon>202212082056050_SeedCourseVideoLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212082057425_SeedCategories.resx">
+      <DependentUpon>202212082057425_SeedCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212082059474_SeedCourses.resx">
+      <DependentUpon>202212082059474_SeedCourses.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

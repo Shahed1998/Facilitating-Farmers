@@ -8,7 +8,7 @@ namespace DAL.Interfaces
 {
     public interface IRepo<TClass, TDataType>
     {
-        TDataType Add(TClass @obj);
+        TClass Add(TClass @obj);
 
         List<TClass> Get();
 
@@ -17,7 +17,6 @@ namespace DAL.Interfaces
         TDataType Update(TClass @obj);
 
         TDataType Delete(int id);
-
 
     }
 }
