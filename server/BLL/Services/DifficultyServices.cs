@@ -15,7 +15,7 @@ namespace BLL.Services
         // Get all difficulties
         public static List<DifficultyDTO> Get()
         {
-            var difficulties = DataAccessFactory.GetAllDifficulties().Get();
+            var difficulties = DataAccessFactory.DifficultyDataAccess().Get();
 
             var config = new MapperConfiguration(cfg => { 
 
@@ -32,7 +32,7 @@ namespace BLL.Services
         // Get difficulty with id
         public static DifficultyCourseDTO GetWithCourses(int Id)
         {
-            var data = DataAccessFactory.GetDifficultyById().Get(Id);
+            var data = DataAccessFactory.DifficultyDataAccess().Get(Id);
 
             var config = new MapperConfiguration(cfg =>
             {

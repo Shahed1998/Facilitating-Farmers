@@ -15,7 +15,7 @@ namespace BLL.Services
         // Get all courses
         public static List<CourseSummaryDTO> Get()
         {
-            var data = DataAccessFactory.GetAllCourses().Get();
+            var data = DataAccessFactory.CourseDataAccess().Get();
 
             var config = new MapperConfiguration(cfg => { 
                 cfg.CreateMap<Course, CourseSummaryDTO>();
@@ -32,7 +32,7 @@ namespace BLL.Services
         // Get course by Id
         public static CourseSummaryDTO Get(int Id)
         {
-            var data = DataAccessFactory.GetAllCourses().Get(Id);
+            var data = DataAccessFactory.CourseDataAccess().Get(Id);
 
             var config = new MapperConfiguration(cfg => {
                 cfg.CreateMap<Course, CourseSummaryDTO>();
@@ -44,6 +44,35 @@ namespace BLL.Services
 
             return mapper.Map<CourseSummaryDTO>(data);
 
+        }
+
+        // add a course
+        public static CourseSummaryDTO Add(CourseDTO dto)
+        {
+            dto.LastUpdatedAt = DateTime.Now;
+
+            var config = new MapperConfiguration(cfg => cfg.CreateMap<CourseDTO, Course>());
+
+            var mapper = new Mapper(config);
+
+            var dbObj = mapper.Map<Course>(dto);
+
+            var ret = DataAccessFactory.CourseDataAccess().Add(dbObj);
+
+            return Get(ret.Id);
+
+        }
+
+        // Delete a course
+        public static CourseDTO Delete(int Id)
+        {
+            var data = DataAccessFactory.CourseDataAccess().Delete(Id);
+
+            var config = new MapperConfiguration(cfg => cfg.CreateMap<Course, CourseDTO>());
+
+            var mapper = new Mapper(config);
+
+            return mapper.Map<CourseDTO>(data);
         }
     }
 }

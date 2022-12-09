@@ -1,4 +1,5 @@
-﻿using BLL.Services;
+﻿using BLL.DTOs;
+using BLL.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -41,6 +42,44 @@ namespace API.Controllers
             catch (Exception ex)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+            }
+        }
+
+        // Add a course
+        [HttpPost]
+        [Route("add")]
+        public HttpResponseMessage AddCourse(CourseDTO courseDTO)
+        {
+            try
+            {
+                var data = CourseServices.Add(courseDTO);
+
+                if (data != null) return Request.CreateResponse(HttpStatusCode.Created, data);
+
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, data);
+
+            }catch(Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+            }
+        }
+
+        // Delete a course
+        [HttpDelete]
+        [Route("delete/{Id}")]
+        public HttpResponseMessage DeleteCourse(int Id)
+        {
+            try
+            {
+                var data = CourseServices.Delete(Id); 
+
+                if (data != null) return Request.CreateResponse(HttpStatusCode.NoContent);
+                    
+                return Request.CreateResponse(HttpStatusCode.BadRequest, new {Message="Invalid Id"});
+
+            }catch (Exception ex)
+            {
+               return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         }
 

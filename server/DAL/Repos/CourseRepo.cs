@@ -19,17 +19,6 @@ namespace DAL.Repos
             return null;
         }
 
-        public Course Delete(int id)
-        {
-            var courseObj = Get(id);
-
-            db.Courses.Remove(courseObj);
-
-            if (db.SaveChanges() > 0) return courseObj;
-
-            return null;
-        }
-
         public List<Course> Get()
         {
             return db.Courses.ToList();
@@ -39,6 +28,20 @@ namespace DAL.Repos
         {
             return db.Courses.Find(Id);
         }
+
+        public Course Delete(int id)
+        {
+            var courseObj = Get(id);
+
+            if (courseObj == null) return null;
+
+            db.Courses.Remove(courseObj);
+
+            if(db.SaveChanges()>0) return courseObj;
+
+            return null;
+        }
+
 
         public Course Update(Course obj)
         {

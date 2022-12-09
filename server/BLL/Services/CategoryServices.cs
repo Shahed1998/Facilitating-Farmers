@@ -15,7 +15,7 @@ namespace BLL.Services
         // Get all categories
         public static List<CategoryDTO> Get()
         {
-            var data = DataAccessFactory.GetAllCategories().Get();
+            var data = DataAccessFactory.CategoryDataAccess().Get();
 
             var config = new MapperConfiguration(cfg =>
             {
@@ -31,7 +31,7 @@ namespace BLL.Services
         // Get category by id
         public static CategoryCourseDTO Get(int Id)
         {
-            var data = DataAccessFactory.GetCategoryById().Get(Id);
+            var data = DataAccessFactory.CategoryDataAccess().Get(Id);
 
             var config = new MapperConfiguration(cfg =>
             {
