@@ -68,7 +68,10 @@ S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\System.Web.WebPage
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\System.Web.WebPages.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\System.Web.WebPages.Razor.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\WebGrease.dll
+S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\DAL.dll
+S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\AutoMapper.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\BLL.pdb
+S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\BLL.dll.config
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\EntityFramework.xml
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\EntityFramework.SqlServer.xml
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\Newtonsoft.Json.xml
@@ -84,6 +87,9 @@ S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\System.Web.WebPage
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\System.Web.WebPages.Razor.xml
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\Antlr3.Runtime.pdb
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\DAL.pdb
+S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\DAL.dll.config
+S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\AutoMapper.xml
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\obj\Debug\API.csproj.AssemblyReference.cache
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\obj\Debug\API.csproj.CoreCompileInputs.cache
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\obj\Debug\API.csproj.CopyComplete

@@ -8,35 +8,48 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class CourseRepo : Repo, IRepo<Course, bool>
+    internal class CourseRepo : Repo, IRepo<Course>
     {
         public Course Add(Course obj)
         {
             db.Courses.Add(obj);
 
             if (db.SaveChanges() > 0) return obj;
-            
+
             return null;
         }
 
-        public bool Delete(int id)
+        public Course Delete(int id)
         {
-            throw new NotImplementedException();
+            var courseObj = Get(id);
+
+            db.Courses.Remove(courseObj);
+
+            if (db.SaveChanges() > 0) return courseObj;
+
+            return null;
         }
 
         public List<Course> Get()
         {
-            throw new NotImplementedException();
+            return db.Courses.ToList();
         }
 
         public Course Get(int id)
         {
-            throw new NotImplementedException();
+            return db.Courses.Find(id);
         }
 
-        public bool Update(Course obj)
+        public Course Update(Course obj)
         {
-            throw new NotImplementedException();
+            var dbObj = Get(obj.Id);
+
+            db.Entry(dbObj).CurrentValues.SetValues(obj);
+
+            if (db.SaveChanges() > 0) return obj;
+
+            return null;
         }
     }
+
 }

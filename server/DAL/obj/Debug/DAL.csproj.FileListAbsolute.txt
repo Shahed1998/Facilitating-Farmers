@@ -1,5 +1,3 @@
-S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
-S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\DAL.dll.config
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\DAL.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\DAL.pdb
@@ -7,11 +5,13 @@ S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\EntityFramew
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\EntityFramework.SqlServer.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\EntityFramework.xml
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\bin\Debug\EntityFramework.SqlServer.xml
-S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CopyComplete
-S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.dll
-S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.pdb
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.AddedDB.resources
-S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.SeedCourseVideoLock.resources
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.SeedCategories.resources
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.SeedCourses.resources
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CopyComplete
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.dll
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.pdb

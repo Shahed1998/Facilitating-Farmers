@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Interfaces
 {
-    public interface IRepo<TClass, TDataType>
+    public interface IRepo<TClass>
     {
         TClass Add(TClass @obj);
 
@@ -14,9 +14,9 @@ namespace DAL.Interfaces
 
         TClass Get(int id);
 
-        TDataType Update(TClass @obj);
+        TClass Update(TClass @obj);
 
-        TDataType Delete(int id);
+        TClass Delete(int id);
 
     }
 }
