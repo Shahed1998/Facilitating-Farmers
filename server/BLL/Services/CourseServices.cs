@@ -12,20 +12,38 @@ namespace BLL.Services
 {
     public class CourseServices
     {
-        public static List<CourseDTO> Get()
+        // Get all courses
+        public static List<CourseSummaryDTO> Get()
         {
             var data = DataAccessFactory.GetAllCourses().Get();
 
             var config = new MapperConfiguration(cfg => { 
-                cfg.CreateMap<Course, CourseDTO>();
+                cfg.CreateMap<Course, CourseSummaryDTO>();
                 cfg.CreateMap<Difficulty, DifficultyDTO>();
+                cfg.CreateMap<Category, CategoryDTO>();
             });
 
             var mapper = new Mapper(config);
 
-            var rt = mapper.Map<List<CourseDTO>>(data);
+            return mapper.Map<List<CourseSummaryDTO>>(data);
 
-            return rt;
+        }
+
+        // Get course by Id
+        public static CourseSummaryDTO Get(int Id)
+        {
+            var data = DataAccessFactory.GetAllCourses().Get(Id);
+
+            var config = new MapperConfiguration(cfg => {
+                cfg.CreateMap<Course, CourseSummaryDTO>();
+                cfg.CreateMap<Difficulty, DifficultyDTO>();
+                cfg.CreateMap<Category, CategoryDTO>();
+            });
+
+            var mapper = new Mapper(config);
+
+            return mapper.Map<CourseSummaryDTO>(data);
+
         }
     }
 }

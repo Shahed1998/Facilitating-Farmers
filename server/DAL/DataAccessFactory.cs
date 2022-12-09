@@ -16,6 +16,11 @@ namespace DAL
             return new CourseRepo();
         }
 
+        public static IRepo<Course> GetCourseById()
+        {
+            return new CourseRepo();
+        }
+
         public static IRepo<Difficulty> GetAllDifficulties()
         {
             return new DifficultyRepo();
@@ -24,6 +29,16 @@ namespace DAL
         public static IRepo<Difficulty> GetDifficultyById()
         {
             return new DifficultyRepo();
+        }
+
+        public static IRepo<Category> GetAllCategories()
+        {
+            return new CategoryRepo();
+        }
+
+        public static IRepo<Category> GetCategoryById()
+        {
+            return new CategoryRepo();
         }
     }
 }

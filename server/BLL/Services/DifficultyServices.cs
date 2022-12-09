@@ -30,16 +30,14 @@ namespace BLL.Services
         }
 
         // Get difficulty with id
-        public static DifficultyCourseDTO GetWithCourses(int id)
+        public static DifficultyCourseDTO GetWithCourses(int Id)
         {
-            var data = DataAccessFactory.GetDifficultyById().Get(id);
+            var data = DataAccessFactory.GetDifficultyById().Get(Id);
 
             var config = new MapperConfiguration(cfg =>
             {
-
                 cfg.CreateMap<Difficulty, DifficultyCourseDTO>();
                 cfg.CreateMap<Course, CourseDTO>();
-               
             });
 
             var mapper = new Mapper(config);

@@ -1,5 +1,4 @@
-﻿using DAL.EF.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.DTOs
 {
-    public class CourseDTO
+    public class CourseSummaryDTO
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -18,13 +17,8 @@ namespace BLL.DTOs
 
         public DateTime LastUpdatedAt { get; set; }
 
-        public int CategoryId { get; set; }
-
         public CategoryDTO Category { get; set; }
 
-        public int DifficultyId { get; set; }
-
         public DifficultyDTO Difficulty { get; set; }
-
     }
 }

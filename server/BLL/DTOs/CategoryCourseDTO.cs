@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace BLL.DTOs
 {
-    public class DifficultyCourseDTO : DifficultyDTO
+    public class CategoryCourseDTO : CategoryDTO
     {
         public List<CourseDTO> Courses { get; set; }
 
-        public DifficultyCourseDTO()
+        public CategoryCourseDTO()
         {
             Courses = new List<CourseDTO>();
         }

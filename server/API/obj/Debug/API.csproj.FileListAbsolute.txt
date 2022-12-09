@@ -1,3 +1,4 @@
+S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\API.dll.config
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\API.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\API.pdb
@@ -14,7 +15,6 @@ S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\roslyn\Microsoft.C
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\roslyn\Microsoft.CSharp.Core.targets
-S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\roslyn\Microsoft.Managed.Core.targets
 S:\Self_Learning\Projects\Facilitating-Farmers\server\API\bin\roslyn\Microsoft.VisualBasic.Core.targets

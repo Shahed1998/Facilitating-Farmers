@@ -27,6 +27,23 @@ namespace API.Controllers
             }
         }
 
+        // Get a courses
+        [HttpGet]
+        [Route("{Id}")]
+        public HttpResponseMessage GetACourse(int Id)
+        {
+            try
+            {
+                var data = CourseServices.Get(Id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+            }
+        }
+
         // Get all difficulties
         [HttpGet]
         [Route("difficulties")]
@@ -61,6 +78,42 @@ namespace API.Controllers
                 return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
             }
         
+        }
+
+        // Get all categories
+        [HttpGet]
+        [Route("categories")]
+        public HttpResponseMessage GetAllCategories()
+        {
+            try
+            {
+                var data = CategoryServices.Get();
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+            }
+        }
+
+        // Get category by id
+        [HttpGet]
+        [Route("categories/{id}")]
+        public HttpResponseMessage GetCategory(int id)
+        {
+            try
+            {
+                var data = CategoryServices.Get(id);
+
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+            }
+
         }
     }
 }

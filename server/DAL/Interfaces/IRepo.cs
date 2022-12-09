@@ -12,11 +12,11 @@ namespace DAL.Interfaces
 
         List<TClass> Get();
 
-        TClass Get(int id);
+        TClass Get(int Id);
 
         TClass Update(TClass @obj);
 
-        TClass Delete(int id);
+        TClass Delete(int Id);
 
     }
 }

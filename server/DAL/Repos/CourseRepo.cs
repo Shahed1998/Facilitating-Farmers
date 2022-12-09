@@ -35,9 +35,9 @@ namespace DAL.Repos
             return db.Courses.ToList();
         }
 
-        public Course Get(int id)
+        public Course Get(int Id)
         {
-            return db.Courses.Find(id);
+            return db.Courses.Find(Id);
         }
 
         public Course Update(Course obj)
