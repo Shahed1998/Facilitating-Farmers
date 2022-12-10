@@ -25,5 +25,10 @@ namespace DAL
         {
             return new CategoryRepo();
         }
+
+        public static IRepo<Specialist> SpecialistDataAccess()
+        {
+            return new SpecialistRepo();
+        }
     }
 }
