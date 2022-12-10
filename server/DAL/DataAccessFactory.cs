@@ -25,5 +25,16 @@ namespace DAL
         {
             return new CategoryRepo();
         }
+
+        public static IRepo<Admin> AdminDataAccess()
+        {
+            return new AdminRepo();
+        }
+
+        public static IRepo<AdminSendMessage> AdminSendMessageDataAccess()
+        {
+            return new AdminSendMessageRepo();
+        }
+
     }
 }

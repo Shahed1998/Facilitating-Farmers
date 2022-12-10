@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DAL.EF.Models
 {
-    public class Customer
+    public class Admin
     {
         [Key]
         public int Id { get; set; }
@@ -29,17 +28,11 @@ namespace DAL.EF.Models
         [StringLength(100)]
         public string Password { get; set; }
 
-        public List<CourseEnrollment> courseEnrollments { get; set; }
-        public List<Question> questions { get; set; }
         public List<AdminSendMessage> adminSendMessages { get; set; }
 
-        public Customer()
+        public Admin()
         {
-            courseEnrollments = new List<CourseEnrollment>();
-            questions = new List<Question>();
             adminSendMessages = new List<AdminSendMessage>();
-
         }
-
     }
 }

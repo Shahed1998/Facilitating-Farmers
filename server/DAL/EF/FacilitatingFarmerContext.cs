@@ -35,5 +35,9 @@ namespace DAL.EF
 
         public DbSet <Answer> Answers { get; set; }
 
+        public DbSet<AdminSendMessage> AdminSendMessages { get; set; }
+
+        public DbSet<Admin> Admins { get; set; }
+
     }
 }

@@ -54,6 +54,8 @@
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="EF\FacilitatingFarmerContext.cs" />
+    <Compile Include="EF\Models\Admin.cs" />
+    <Compile Include="EF\Models\AdminSendMessage.cs" />
     <Compile Include="EF\Models\Answer.cs" />
     <Compile Include="EF\Models\Category.cs" />
     <Compile Include="EF\Models\Course.cs" />
@@ -83,8 +85,14 @@
     <Compile Include="Migrations\202212082059474_SeedCourses.designer.cs">
       <DependentUpon>202212082059474_SeedCourses.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202212101135046_AdminAddedDB.cs" />
+    <Compile Include="Migrations\202212101135046_AdminAddedDB.designer.cs">
+      <DependentUpon>202212101135046_AdminAddedDB.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\AdminRepo.cs" />
+    <Compile Include="Repos\AdminSendMessageRepo.cs" />
     <Compile Include="Repos\CategoryRepo.cs" />
     <Compile Include="Repos\CourseRepo.cs" />
     <Compile Include="Repos\DifficultyRepo.cs" />
@@ -102,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212082059474_SeedCourses.resx">
       <DependentUpon>202212082059474_SeedCourses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212101135046_AdminAddedDB.resx">
+      <DependentUpon>202212101135046_AdminAddedDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

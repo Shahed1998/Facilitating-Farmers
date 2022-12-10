@@ -97,7 +97,7 @@
                     Description = Guid.NewGuid().ToString().Substring(1, 30),
                     LastUpdatedAt = DateTime.Now,
                     DifficultyId = random.Next(1, 4),
-                    CategoryId = random.Next(1, 9)
+                    CategoryId = random.Next(17, 25)
                 });
             }
 
