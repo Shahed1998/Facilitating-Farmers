@@ -48,6 +48,7 @@
     <Compile Include="DTOs\CategoryDTO.cs" />
     <Compile Include="DTOs\CourseDTO.cs" />
     <Compile Include="DTOs\CourseSummaryDTO.cs" />
+    <Compile Include="DTOs\CustomerDTO.cs" />
     <Compile Include="DTOs\DifficultyCourseDTO.cs" />
     <Compile Include="DTOs\DifficultyDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

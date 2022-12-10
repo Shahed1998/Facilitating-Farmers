@@ -25,5 +25,21 @@ namespace DAL
         {
             return new CategoryRepo();
         }
+        public static IRepo<Customer>CustomerDataAccess()
+        {
+            return new CustomerRepo();
+        }
+        public static IRepo<CourseEnrollment> CourseEnrollmentDataAccess()
+        {
+            return new CourseEnrollmentRepo();
+        }
+        public static IRepo<Question> QuestionDataAccess()
+        {
+            return new QuestionRepo();
+        }
+        public static IRepo<Answer> AnswerDataAccess()
+        {
+            return new AnswerRepo();
+        }
     }
 }

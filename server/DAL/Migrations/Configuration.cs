@@ -97,11 +97,11 @@
                     Description = Guid.NewGuid().ToString().Substring(1, 30),
                     LastUpdatedAt = DateTime.Now,
                     DifficultyId = random.Next(1, 4),
-                    CategoryId = random.Next(1, 9)
+                    CategoryId = random.Next(9, 17)
                 });
             }
 
-            context.Courses.AddOrUpdate(s=>s.Title, courses.ToArray());
+            context.Courses.AddOrUpdate(s=>s.Title, courses.ToArray()); 
 
         }
     }
