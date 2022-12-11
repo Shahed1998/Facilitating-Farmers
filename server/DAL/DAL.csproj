@@ -85,9 +85,13 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\AnswerRepo.cs" />
     <Compile Include="Repos\CategoryRepo.cs" />
+    <Compile Include="Repos\CourseEnrollmentRepo.cs" />
     <Compile Include="Repos\CourseRepo.cs" />
+    <Compile Include="Repos\CustomerRepo.cs" />
     <Compile Include="Repos\DifficultyRepo.cs" />
+    <Compile Include="Repos\QuestionRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
     <Compile Include="Repos\SpecialistRepo.cs" />
   </ItemGroup>

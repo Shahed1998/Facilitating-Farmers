@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class DataAccessFactory
+    public class DataAccessFactory 
     {
         public static IRepo<Course> CourseDataAccess()
         {
@@ -29,6 +29,23 @@ namespace DAL
         public static IRepo<Specialist> SpecialistDataAccess()
         {
             return new SpecialistRepo();
+        }
+
+        public static IRepo<Customer> CustomerDataAccess()
+        {
+            return new CustomerRepo();
+        }
+        public static IRepo<CourseEnrollment> CourseEnrollmentDataAccess()
+        {
+            return new CourseEnrollmentRepo();
+        }
+        public static IRepo<Question> QuestionDataAccess()
+        {
+            return new QuestionRepo();
+        }
+        public static IRepo<Answer> AnswerDataAccess()
+        {
+            return new AnswerRepo();
         }
     }
 }

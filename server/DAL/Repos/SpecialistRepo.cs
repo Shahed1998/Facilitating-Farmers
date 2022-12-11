@@ -22,7 +22,13 @@ namespace DAL.Repos
 
         public Specialist Delete(int Id)
         {
-            throw new NotImplementedException();
+            var specialist = Get(Id);
+
+            db.Specialists.Remove(specialist);
+
+            if (db.SaveChanges() > 0) return specialist;
+
+            return null;
         }
 
         public List<Specialist> Get()
@@ -37,7 +43,13 @@ namespace DAL.Repos
 
         public Specialist Update(Specialist obj)
         {
-            throw new NotImplementedException();
+            var dbObj = Get(obj.Id);
+
+            db.Entry(dbObj).CurrentValues.SetValues(obj);
+
+            if (db.SaveChanges() > 0) return obj;
+
+            return null;
         }
     }
 }
