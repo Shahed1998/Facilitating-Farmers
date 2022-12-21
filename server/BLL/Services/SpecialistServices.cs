@@ -63,7 +63,7 @@ namespace BLL.Services
         {
             var config = new MapperConfiguration(cfg => {
                 cfg.CreateMap<SpecialistDTO, Specialist>();
-                cfg.CreateMap<SpecialistDTO, Specialist>();
+                cfg.CreateMap<Specialist, SpecialistDTO>();
             });
 
             var mapper = new Mapper(config);
