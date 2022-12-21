@@ -3,11 +3,14 @@ import CourseImg from './Images/services-section-online-course.jpg';
 import SpecialistImg from './Images/services-section-specialist.jpg';
 import QA from './Images/services-section-q-and-a.jpg';
 import BuySell from './Images/services-section-buy-and-sell.jpg';
+import { translate } from '../Translator';
 
 const Services = () => {
   return (
     <div className='mt-5'>
-      <h3 className='p-3 text-center shadow mb-3'>সেবা</h3>
+      <h3 className='p-3 text-center shadow mb-3'>
+        {translate('Home.ServiceSectionHeader.1')}
+      </h3>
       <div
         className='container vh-50 d-flex align-items-center justify-content-center'
         style={{ marginTop: '5rem' }}

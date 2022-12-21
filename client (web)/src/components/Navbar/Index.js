@@ -1,4 +1,24 @@
 import { NavLink, Link } from 'react-router-dom';
+import { translate } from '../Translator';
+
+const handleTranslation = (e) => {
+  switch (e.target.value) {
+    case 'en':
+      e.target.value = 'bn-BD';
+      e.target.textContent = 'Bengali';
+      window.translateTo('bn-BD');
+      break;
+    case 'bn-BD':
+      e.target.value = 'en';
+      e.target.textContent = 'English';
+      window.translateTo('en');
+      break;
+    default:
+      e.target.value = 'en';
+      e.target.textContent = 'English';
+      window.translateTo('en');
+  }
+};
 
 const Navbar = () => {
   return (
@@ -27,29 +47,37 @@ const Navbar = () => {
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item p-2'>
               <NavLink to={'/courses'} className='nav-link'>
-                কোর্স
+                {translate('Course.Btn.1')}
               </NavLink>
             </li>
             <li className='nav-item p-2'>
               <NavLink to={'/specialists'} className='nav-link'>
-                বিশেষজ্ঞ
+                {translate('Specialist.Btn.1')}
               </NavLink>
             </li>
             <li className='nav-item p-2'>
               <NavLink to={'/question-answers'} className='nav-link'>
-                প্রশ্নোত্তর
+                {translate('QA.Btn.1')}
               </NavLink>
             </li>
             <li className='nav-item p-2'>
               <NavLink to={'/buy-sell'} className='nav-link'>
-                ক্রয়/বিক্রয়
+                {translate('BuySell.Btn.1')}
               </NavLink>
             </li>
             <li className='nav-item p-2'>
-              <Link className=' btn btn-secondary'>English</Link>
+              <button
+                className=' btn btn-secondary'
+                value='en'
+                onClick={(e) => handleTranslation(e, 'value')}
+              >
+                English
+              </button>
             </li>
             <li className='nav-item p-2'>
-              <Link className=' btn btn-secondary'>সাইন ইন করুন</Link>
+              <Link className=' btn btn-secondary'>
+                {translate('SignIn.1')}
+              </Link>
             </li>
           </ul>
         </div>
