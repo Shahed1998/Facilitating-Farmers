@@ -12,6 +12,8 @@ namespace DAL.Repos
     {
         public Specialist Add(Specialist obj)
         {
+            obj.Verified = 0;
+
             db.Specialists.Add(obj);
 
             if (db.SaveChanges() > 0) return obj;

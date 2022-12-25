@@ -83,6 +83,10 @@
     <Compile Include="Migrations\202212082059474_SeedCourses.designer.cs">
       <DependentUpon>202212082059474_SeedCourses.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202212250924427_UpdatedSpecialistTable.cs" />
+    <Compile Include="Migrations\202212250924427_UpdatedSpecialistTable.designer.cs">
+      <DependentUpon>202212250924427_UpdatedSpecialistTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repos\AnswerRepo.cs" />
@@ -107,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202212082059474_SeedCourses.resx">
       <DependentUpon>202212082059474_SeedCourses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202212250924427_UpdatedSpecialistTable.resx">
+      <DependentUpon>202212250924427_UpdatedSpecialistTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

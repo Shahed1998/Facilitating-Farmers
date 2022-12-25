@@ -10,6 +10,7 @@ S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migratio
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.SeedCourseVideoLock.resources
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.SeedCategories.resources
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.SeedCourses.resources
+S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.Migrations.UpdatedSpecialistTable.resources
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 S:\Self_Learning\Projects\Facilitating-Farmers\server\DAL\obj\Debug\DAL.csproj.CopyComplete

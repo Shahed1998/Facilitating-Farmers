@@ -1,24 +1,6 @@
 import { NavLink, Link } from 'react-router-dom';
 import { translate } from '../Translator';
-
-const handleTranslation = (e) => {
-  switch (e.target.value) {
-    case 'en':
-      e.target.value = 'bn-BD';
-      e.target.textContent = 'Bengali';
-      window.translateTo('bn-BD');
-      break;
-    case 'bn-BD':
-      e.target.value = 'en';
-      e.target.textContent = 'English';
-      window.translateTo('en');
-      break;
-    default:
-      e.target.value = 'en';
-      e.target.textContent = 'English';
-      window.translateTo('en');
-  }
-};
+import handleTranslation from './handleTranslation';
 
 const Navbar = () => {
   return (
@@ -75,7 +57,7 @@ const Navbar = () => {
               </button>
             </li>
             <li className='nav-item p-2'>
-              <Link className=' btn btn-secondary'>
+              <Link to={'/login'} className=' btn btn-secondary'>
                 {translate('SignIn.1')}
               </Link>
             </li>

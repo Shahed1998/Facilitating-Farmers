@@ -5,14 +5,23 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import './i18next';
+import { CookiesProvider } from 'react-cookie';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense
+      fallback={
+        <div className='d-flex align-items-center justify-content-center min-vh-100'>
+          Loading...
+        </div>
+      }
+    >
       <BrowserRouter>
-        <App />
+        <CookiesProvider>
+          <App />
+        </CookiesProvider>
       </BrowserRouter>
     </Suspense>
   </React.StrictMode>
