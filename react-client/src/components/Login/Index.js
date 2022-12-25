@@ -1,7 +1,24 @@
 import * as utils from './utils';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const Login = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (
+      localStorage.getItem('Bearer') &&
+      localStorage.getItem('User') === 'Customer'
+    ) {
+      navigate('/customer/dashboard');
+    } else if (
+      localStorage.getItem('Bearer') &&
+      localStorage.getItem('User') === 'Specialist'
+    ) {
+      navigate('/specialist/dashboard');
+    }
+  });
+
   return (
     <div className='container min-vh-100'>
       <div className='row'>

@@ -23,8 +23,9 @@ export const loginUser = async (e) => {
             Password,
           }
         );
-        console.log(response);
         localStorage.setItem('Bearer', response.data.TokenKey);
+        localStorage.setItem('User', 'Specialist');
+        window.location.href = '';
         break;
       default:
         var resp = await axios.post(`${URL}/api/customerLogin`, {
@@ -32,7 +33,8 @@ export const loginUser = async (e) => {
           Password,
         });
         localStorage.setItem('Bearer', resp.data.TokenKey);
-
+        localStorage.setItem('User', 'Customer');
+        window.location.href = '';
         break;
     }
   } catch (error) {
