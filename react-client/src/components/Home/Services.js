@@ -76,33 +76,6 @@ const Services = () => {
       </div>
     </div>
   );
-
-  //    <div className='row'>
-  //   <div className='col-lg-3'>
-  //     {/* Course */}
-  //     <div className='card shadow mt-5' style={{ width: '18rem' }}>
-  //       <img className='card-img-top' src={CourseImg} alt='Online course' />
-  //       <div className='card-body'>
-  //         <h5 className='card-title text-center'>কোর্স</h5>
-  //         <Link to='#' className='btn btn-secondary w-100 p-3'>
-  //           এখানে দেখুন
-  //         </Link>
-  //       </div>
-  //     </div>
-  //   </div>
-  //   <div className='col-lg-3'>
-  //     {/* Specialists */}
-  //     <div className='card shadow mt-5' style={{ width: '18rem' }}>
-  //       <img className='card-img-top' src={CourseImg} alt='Online course' />
-  //       <div className='card-body'>
-  //         <h5 className='card-title text-center'>কোর্স</h5>
-  //         <Link to='#' className='btn btn-secondary w-100 p-3'>
-  //           এখানে দেখুন
-  //         </Link>
-  //       </div>
-  //     </div>
-  //   </div>
-  // </div>;
 };
 
 export default Services;
