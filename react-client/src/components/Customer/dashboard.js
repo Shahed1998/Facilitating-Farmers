@@ -1,4 +1,4 @@
-import { NavbarSpecialist } from '../Navbar/Index';
+import { CustomerNav } from '../Navbar/Index';
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ const CustomerDash = () => {
     if (!localStorage.getItem('Bearer')) navigate('/');
   });
 
-  return <NavbarSpecialist />;
+  return <CustomerNav />;
 };
 
 export default CustomerDash;
