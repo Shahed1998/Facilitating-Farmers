@@ -6,6 +6,7 @@ import Signup from './components/Login/Signup';
 import SplstDash from './components/Specialists/dashboard';
 import CustomerDash from './components/Customer/dashboard';
 import Logout from './components/Logout/Index';
+import Course from './components/Courses/Index';
 
 const App = () => {
   window.translateTo = (lang) => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/signup' element={<Signup />} />
         <Route path='/specialist-dashboard' element={<SplstDash />} />
         <Route path='/customer-dashboard' element={<CustomerDash />} />
+        <Route path='/courses' element={<Course />} />
         <Route path='/logout' element={<Logout />} />
       </Routes>
     </>
